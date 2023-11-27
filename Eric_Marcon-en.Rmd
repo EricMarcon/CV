@@ -5,10 +5,51 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 #knit: pagedown::chrome_print
 ---
+
+```{css, echo=FALSE}
+.aside {
+  padding-top: 0;
+}
+
+.aside > p:first-of-type {
+  margin-top: 0;
+}
+
+.pagedjs_page {
+  --pagedjs-margin-bottom: 0.2in;
+}
+``` 
+
+```{r setup, include=FALSE}
+# Installation of packages if necessary
+InstallPackages <- function(Packages) {
+  InstallPackage <- function(Package) {
+    if (!Package %in% installed.packages()[, 1]) {
+      install.packages(Package, repos="https://cran.rstudio.com/")
+    }
+  }
+  invisible(sapply(Packages, InstallPackage))
+}
+# Add necessary packages here
+Packages <- c("tidyverse", "scholar")
+# Install them
+InstallPackages(Packages)
+# ggplot style
+library("tidyverse")
+theme_set(theme_bw())
+theme_update(
+  panel.background = element_rect(fill = "transparent", colour = NA),
+  plot.background = element_rect(fill = "transparent", colour = NA),
+  text = element_text(size=20)
+)
+knitr::opts_chunk$set(dev.args = list(bg = "transparent"))
+# Random seed
+set.seed(973)
+```
 
 Aside
 ================================================================================
@@ -21,9 +62,10 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> eric.marcon@agroparistech.fr
-- <i class="fa fa-github"></i> [github.com/ericmarcon](https://github.com/ericmarcon)
+- <i class="fa fa-globe"></i> [Page personnelle](https://ericmarcon.github.io/fr/)
+- <i class="fa fa-github"></i> [Github](https://github.com/ericmarcon)
+- <i class="fa fa-google"></i> [Google Scholar](https://scholar.google.com/citations?user=4iLBmbUAAAAJ)
 - <i class="fa fa-phone"></i> +33 7 87 05 70 55
-- For more information, please contact me via email.
 
 
 Skills {#skills}
@@ -36,10 +78,18 @@ Skills {#skills}
 - Highly skilled in R.
 
 
-Disclaimer {#disclaimer}
+Language {#skills}
 --------------------------------------------------------------------------------
 
-This resume was made with the R package [**pagedown**](https://github.com/rstudio/pagedown).
+- French: mother tongue (C2)
+- English: fluent (C1)
+- Italian: advanced (B2)
+- Portuguese: advanced (B1)
+- Spanish: operational (A2)
+
+
+Disclaimer {#disclaimer}
+--------------------------------------------------------------------------------
 
 Last updated on `r Sys.Date()`.
 
@@ -51,33 +101,99 @@ Main
 Eric Marcon {#title}
 --------------------------------------------------------------------------------
 
-### Currently lecturer and researcher with AgroParisTech
+### Currently lecturer and researcher with AgroParisTech, PhD.
 
-I am a researcher in Tropical Ecology with [UMR Amap](http://amap.cirad.fr/en/), a professor at [AgroParisTech](http://www.agroparistech.fr/) and a coordinator of the [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) course of the Biodiversity, Ecology and Evolution master's degree at AgroParisTech and Montpellier University.
+I am a researcher in Tropical Ecology with [Amap lab](http://amap.cirad.fr/en/), a professor at [AgroParisTech](http://www.agroparistech.fr/) and a coordinator of the [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) course of the Biodiversity, Ecology and Evolution master's degree at AgroParisTech and Montpellier University.
+
+I'm the director of training with [Ceba Excellence Laboratory](https://www.labex-ceba.fr/) (Centre d'Etudes de la Biodiversité Amazonienne) and a member of the [Scientific Council](https://www.ofb.gouv.fr/le-conseil-scientifique) of the French Office for Biodiversity.
+
+```{r, include=FALSE}
+library("lubridate")
+naiss <- ymd("1967-10-14")
+evt <- Sys.Date()
+my_age <- trunc(time_length(interval(naiss, evt), "years"))
+```
+
+I am `r my_age` years old and I live in Montpellier, France.
+
+
+
+Professional Experience {data-icon=suitcase}
+--------------------------------------------------------------------------------
+
+### Lecturer-researcher in charge of a master's programme
+
+AgroParisTech, Amap lab.
+
+Montpellier, France
+
+Présent - 2020
+
+### Campus director with AgroParisTech
+
+AgroParisTech
+
+Kourou, French Guiana
+
+2020 - 2006
+
+### Educational engineer
+
+Ecole Nationale du Génie Rural, des Eaux et des Forêts (post-graduate, environment engineering and public administration school, now merged with AgroParisTech)
+
+Kourou, French Guiana
+
+2006 - 2002
+
+### Head of IT at Cemagref General Management
+
+Research Institute for Agricultural and Environmental Engineering (now merged with Inrae: National Research Institute for Agriculture, Food and Environment)
+
+Antony, France
+
+2002 - 1999
+
+### Head of IT at Engref General Management
+
+Ecole Nationale du Génie Rural, des Eaux et des Forêts
+
+Paris, France
+
+1997 - 1995
+
+### Forest engineer
+
+Head of Division with the National Forest Office
+
+Charleville-Mézières, France
+
+1995 - 1991
+
 
 
 Education {data-icon=graduation-cap data-concise=true}
 --------------------------------------------------------------------------------
 
-### Ecole Nationale des Ingénieurs des Travaux des Eaux et Forêts
+### University of French Guiana
 
-Graduate Engineering School of Forestry
+Habilitation à Diriger des Recherches (French qualification to supervise research) in Ecology
 
-Nogent sur Vernisson, France
+Kourou, French Guiana
 
-1990
+2016
 
-
-### University of Paris, Panthéon Sorbonne
-
-MSc in International Economic
+[Thesis](https://theses.hal.science/tel-01502970/): Measuring biodiversity and spatial structures (in French)
 
 
-Paris, france
+### AgroParisTech
 
-1999
+PhD in Ecology
 
-Thesis: The international timber trade
+Paris, France
+
+2010
+
+[Thesis](https://theses.hal.science/pastel-00540327/): Spatial statistics with applications to ecology and economics (in French)
 
 
 ### Ecole Nationale du Génie Rural, des Eaux et des Forêts
@@ -89,41 +205,29 @@ Paris, France
 1999
 
 
-### AgroParisTech
+### University of Paris, Panthéon Sorbonne
 
-PhD in Ecology
+MSc in International Economic
 
-Paris, France
+Paris, france
 
-2010
+1999
 
-Thesis: Spatial statistics with applications to ecology and economics
+Thesis: The international timber trade (in French)
 
 
-### University of French Guiana
+### Ecole Nationale des Ingénieurs des Travaux des Eaux et Forêts
 
-Habilitation à Diriger des Recherches (French qualification to supervise research) in Ecology
+Graduate Engineering School of Forestry
 
-Kourou, French Guiana
+Nogent sur Vernisson, France
 
-2016
-
-Thesis: Measuring biodiversity and spatial structures
+1990
 
 
 
 Research Experience {data-icon=laptop}
 --------------------------------------------------------------------------------
-
-### Head of Research Unit Ecology of Guiana Forests
-
-AgroParisTech
-
-Kourou, French Guiana
-
-2006 - 2020
-
-- Deputy director from 2006 to 2009 and director from 2010 on.
 
 ### Researcher in Tropical Ecology
 
@@ -131,92 +235,92 @@ Associate researcher at AMAP lab.
 
 Montpellier, France
 
-2020 - 2023
+Present - 2020
 
-- rrr.
-
-
-  
-
-Professional Experience {data-icon=suitcase}
---------------------------------------------------------------------------------
-
-### Forest Officer
-
-Office National des Forêts
-
-Charleville-Mézières, France
-
-1991 - 1995
-
-::: concise
-- Taught R language to beginners. 
-- Wrote Shiny app demos.
-- Converted statistical tutorials from SPSS to R language.
-:::
-
-### IT Officer
-
-Ecole Nationale du Génie Rural, des Eaux et des Forêts
-
-Paris, France
-
-1995 - 1997
-
-::: concise
-- ee
-:::
-
-### IT Officer
-
-Cemagref
-
-Antony, France
-
-1999 - 2002
-
-::: concise
-- ee
+::: aside
+<i class="fa fa-flask"></i> [Amap Lab](https://amap.cirad.fr/)
 :::
 
 
-### Academic manager
-
-Ecole Nationale du Génie Rural, des Eaux et des Forêts
-
-Kourou, French Guiana
-
-2002 - 2006
-
-
-### Campus Director
+### Head of Research Unit Ecology of Guiana Forests
 
 AgroParisTech
 
 Kourou, French Guiana
 
-2006 - 2020
+2020 - 2006
+
+- Deputy director from 2006 to 2009 and director from 2010.
+
+::: aside
+<i class="fa fa-flask"></i> [EcoFoG Lab](https://www.ecofog.gf/)
+:::
 
 
 
 Teaching Experience {data-icon=chalkboard-teacher}
 --------------------------------------------------------------------------------
 
-### Ecology
+### Biodiversity, Ecology and Evolution, BioGET master's programme
 
-Instructor of R and Data Mining Training Courses at SupStat Inc.
+AgroParisTech and University of Montpellier
 
-Beijing, China
+Montpellier, France
 
-2014
+Present - 2020
 
-### R
+I coordinate the Plant Biodiversity and Management of Tropical Ecosystems (BioGET) programme, which is co-organised by the University of Montpellier and AgroParisTech.
 
-Teaching assistant of GBS CB2-201 courses at UAB
+::: aside
+<i class="fa fa-university"></i> [Master BioGET](https://biologie-ecologie.com/master-bee/bioget/)
+:::
 
-AL, USA
+### AgroParisTech final-year
 
-2016 - 2017
+AgroParisTech
+
+Montpellier, France
+
+Present - 2022
+
+I teach tropical forest ecology, epistemology in ecology and statistics with R to final-year, graduate engineering students in the Environmental Management of Tropical Ecosystems and Forests major.
+
+::: aside
+<i class="fa fa-university"></i> [Geeft MSc](https://www.genv-agroparistech.fr/en/postgraduate-programs/international-msc-geeft)
+:::
+
+
+### Biodiversity, Ecology and Evolution, EFT master's programme
+
+AgroParisTech and University of French Guiana
+
+Kourou, French Guiana
+
+Present - 2010
+
+I teach biodiversity measurement and species abundance distributions to Master 2 students in the Ecology of Tropical Forests programme. This course receives students from the Erasmus Mundus Tropimundo Master's, coordinated by the Free University of Brussels.
+
+::: aside
+<i class="fa fa-university"></i> [EFT Msc](https://www.ecofog.gf/spip.php?rubrique47)
+
+<i class="fa fa-university"></i> [Tropimundo Msc](https://tropimundo.eu/)
+:::
+
+
+### Erasmus Mundus Global Forestry master's programme
+
+University of Copenhagen
+
+Copenhagen, Denmark
+
+Present - 2022
+
+I teach tropical forest ecology and sustainable forest management in the Erasmus Mundus Global Forestry Master 1 programme, coordinated by the University of Copenhagen.
+
+::: aside
+<i class="fa fa-university"></i> [Global Forestry Msc](https://globalforestry.eu/)
+:::
+
 
 
 Selected Publications {data-icon=file}
@@ -228,15 +332,33 @@ I wrote a series of papers to contribute to the development of methods to measur
 
 N/A
 
-2012 - 2017
+2017 - 2012
 
-- Marcon, E., Hérault, B., Baraloto, C., & Lang, G. (2012). The decomposition of Shannon’s entropy and a confidence interval for beta diversity. Oikos, [121, 516–522](https://doi.org/10.1111/j.1600-0706.2011.19267.x).
-- Marcon, E., Scotti, I., Hérault, B., Rossi, V., & Lang, G. (2014). Generalization of the partitioning of Shannon diversity. Plos One, [9, e90289](https://doi.org/10.1371/journal.pone.0090289).
+- Grabchak, M., Marcon, E., Lang, G., & Zhang, Z. (2017). The generalized Simpson’s entropy is a measure of biodiversity. Plos One, [12, e0173305](https://doi.org/10.1371/journal.pone.0173305).
+- Buckland, S. T., Yuan, Y., & Marcon, E. (2017). Measuring temporal trends in biodiversity. AStA Advances in Statistical Analysis, [101, 461–474](https://doi.org/10.1007/s10182-017-0308-1).
+- Pavoine, S., Marcon, E., & Ricotta, C. (2016). ‘Equivalent numbers’ for species, phylogenetic or functional diversity in a nested hierarchy of multiple scales. Methods in Ecology and Evolution, [7(10), 1152–1163](https://doi.org/10.1111/2041-210X.12591).
 - Marcon, E., & Hérault, B. (2015). Decomposing phylodiversity. Methods in Ecology and Evolution, [6, 333–339](https://doi.org/10.1111/2041-210X.12323).
 - Marcon, E., & Hérault, B. (2015). *entropart*, an R package to measure and partition diversity. Journal of Statistical Software, [67, 1–26](https://doi.org/10.18637/jss.v067.i08).
-- Pavoine, S., Marcon, E., & Ricotta, C. (2016). ‘Equivalent numbers’ for species, phylogenetic or functional diversity in a nested hierarchy of multiple scales. Methods in Ecology and Evolution, [7(10), 1152–1163](https://doi.org/10.1111/2041-210X.12591).
-- Buckland, S. T., Yuan, Y., & Marcon, E. (2017). Measuring temporal trends in biodiversity. AStA Advances in Statistical Analysis, [101, 461–474](https://doi.org/10.1007/s10182-017-0308-1).
-- Grabchak, M., Marcon, E., Lang, G., & Zhang, Z. (2017). The generalized Simpson’s entropy is a measure of biodiversity. Plos One, [12, e0173305](https://doi.org/10.1371/journal.pone.0173305).
+- Marcon, E., Scotti, I., Hérault, B., Rossi, V., & Lang, G. (2014). Generalization of the partitioning of Shannon diversity. Plos One, [9, e90289](https://doi.org/10.1371/journal.pone.0090289).
+- Marcon, E., Hérault, B., Baraloto, C., & Lang, G. (2012). The decomposition of Shannon’s entropy and a confidence interval for beta diversity. Oikos, [121, 516–522](https://doi.org/10.1111/j.1600-0706.2011.19267.x).
+
+::: aside
+```{r citations, echo=FALSE, message=FALSE, warning=FALSE}
+library("scholar")
+AuthorID <- "4iLBmbUAAAAJ" # Eric Marcon
+AuthorID %>% 
+  get_citation_history %>% 
+  ggplot(aes(year, cites)) +
+    geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = 'darkgrey') +
+    geom_point(size = 3, color = 'firebrick') +
+    labs(
+      title = "Citations (Google Scholar)",
+      caption = paste("h index:", AuthorID %>% get_profile %>% pluck("h_index")),
+      x = "Year",
+      y = "Citations"
+    )
+```
+:::
 
 
 ### Characterization of spatial patterns
@@ -245,34 +367,35 @@ I co-authored with Florence Puech a series of papers in the field of spatial mic
 
 N/A
 
-2003 - 2023 
+2023 - 2003 
 
-- Marcon, E., & Puech, F. (2003). Evaluating the geographic concentration of industries using distance-based methods. Journal of Economic Geography, [3, 409–428](https://doi.org/10.1093/jeg/lbg016).
-- Marcon, E., & Puech, F. (2010). Measures of the geographic concentration of industries: Improving distance-based methods. Journal of Economic Geography, [10, 745–762](https://doi.org/10.1093/jeg/lbp056).
-- Marcon, E., Puech, F., & Traissac, S. (2012). Characterizing the relative spatial structure of point patterns. International Journal of Ecology, [Article ID 619281](https://doi.org/10.1155/2012/619281).
-- Lang, G., & Marcon, E. (2013). Testing randomness of spatial point patterns with the Ripley statistic. ESAIM: Probability and Statistics, [17, 767–788](https://doi.org/10.1051/ps/2012027).
-- Marcon, E., Traissac, S., & Lang, G. (2013). A statistical test for Ripley’s function rejection of poisson null hypothesis. ISRN Ecology, [Article ID 753475](https://doi.org/10.1155/2013/753475).
-- Marcon, E., Traissac, S., Puech, F., & Lang, G. (2015). Tools to characterize point patterns: *dbmss* for R. Journal of Statistical Software, [67, 1–15](https://doi.org/10.18637/jss.v067.c03).
-- Marcon, E., & Puech, F. (2017). A typology of distance-based measures of spatial concentration. Regional Science and Urban Economics, [62, 56–67](https://doi.org/10.1016/j.regsciurbeco.2016.10.004).
-- Marcon, E. (2019). Mesure de la biodiversité et de la structuration spatiale de l’activité économique par l’entropie. Revue Économique, [70(3), 305–326](https://doi.org/10.3917/reco.703.0305). [English translation](https://ericmarcon.github.io/Revue-Economique-2019/).
 - Lang, G., Marcon, E., & Puech, F. (2020). Distance-based measures of spatial concentration: Introducing a relative density function. The Annals of Regional Science, [64, 243–265](https://doi.org/10.1007/s00168-019-00946-7).
+- Marcon, E. (2019). Mesure de la biodiversité et de la structuration spatiale de l’activité économique par l’entropie. Revue Économique, [70(3), 305–326](https://doi.org/10.3917/reco.703.0305). [English translation](https://ericmarcon.github.io/Revue-Economique-2019/).
+- Marcon, E., & Puech, F. (2017). A typology of distance-based measures of spatial concentration. Regional Science and Urban Economics, [62, 56–67](https://doi.org/10.1016/j.regsciurbeco.2016.10.004).
+- Marcon, E., Traissac, S., Puech, F., & Lang, G. (2015). Tools to characterize point patterns: *dbmss* for R. Journal of Statistical Software, [67, 1–15](https://doi.org/10.18637/jss.v067.c03).
+- Marcon, E., Traissac, S., & Lang, G. (2013). A statistical test for Ripley’s function rejection of poisson null hypothesis. ISRN Ecology, [Article ID 753475](https://doi.org/10.1155/2013/753475).
+- Lang, G., & Marcon, E. (2013). Testing randomness of spatial point patterns with the Ripley statistic. ESAIM: Probability and Statistics, [17, 767–788](https://doi.org/10.1051/ps/2012027).
+- Marcon, E., Puech, F., & Traissac, S. (2012). Characterizing the relative spatial structure of point patterns. International Journal of Ecology, [Article ID 619281](https://doi.org/10.1155/2012/619281).
+- Marcon, E., & Puech, F. (2010). Measures of the geographic concentration of industries: Improving distance-based methods. Journal of Economic Geography, [10, 745–762](https://doi.org/10.1093/jeg/lbp056).
+- Marcon, E., & Puech, F. (2003). Evaluating the geographic concentration of industries using distance-based methods. Journal of Economic Geography, [3, 409–428](https://doi.org/10.1093/jeg/lbg016).
 
 
 ### Tropical Forest Ecology
 
-I contributed to several research programs in French Guiana.
+I contributed to several research programmes in French Guiana.
 
 N/A
 
-2007 - 2020
+Kourou, Guyane française
 
-- Bonal, D. *et al.* (2007). The successional status of tropical rainforest tree species is associated with differences in leaf carbon isotope discrimination and functional traits. Annals of Forest Science, [64, 169–176](https://doi.org/10.1051/forest:2006101).
-- Ollivier, M., Baraloto, C., & Marcon, E. (2007). A trait database for Guianan rain forest trees permits intra- and inter-specific contrasts. Annals of Forest Science, [64, 781–786](https://doi.org/10.1051/forest:2007058).
-- Blanc, L. *et al.*  (2009). Dynamics of aboveground carbon stocks in a selectively logged tropical forest. Ecological Applications, [19, 1397–1404](https://doi.org/10.1890/08-1572.1).
-- Baraloto, C., Marcon, E., Morneau, F., Pavoine, S., & Roggy, J.-C. (2010). Integrating functional diversity into tropical forest plantation designs to study ecosystem processes. Annals of Forest Science, [67, 303](https://doi.org/10.1051/forest/2009110).
-- Coste, S. *et al.* (2010). Assessing foliar chlorophyll contents with the SPAD-502 chlorophyll meter: A calibration test with thirteen tree species of tropical rainforest in French Guiana. Annals of Forest Science, [67, 607](https://doi.org/10.1051/forest/2010020).
+2020 - 2007
+
+- Schmitt, S. *et al.* (2020). Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest. Oikos, [129, 1521–1530](https://doi.org/10.1111/oik.07488).
 - Richard-Hansen  *et al.* (2015). Landscape patterns influence communities of medium- to large-bodied vertebrate in undisturbed terra firme forests of French Guiana. Journal of Tropical Ecology, [31, 423–436](https://doi.org/10.1017/S0266467415000255).
-- Schmitt, S. *et al.*  (2020). Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest. Oikos, [129, 1521–1530](https://doi.org/10.1111/oik.07488).
+- Coste, S. *et al.* (2010). Assessing foliar chlorophyll contents with the SPAD-502 chlorophyll meter: A calibration test with thirteen tree species of tropical rainforest in French Guiana. Annals of Forest Science, [67, 607](https://doi.org/10.1051/forest/2010020).
+- Baraloto, C., Marcon, E., Morneau, F., Pavoine, S., & Roggy, J.-C. (2010). Integrating functional diversity into tropical forest plantation designs to study ecosystem processes. Annals of Forest Science, [67, 303](https://doi.org/10.1051/forest/2009110).
+- Blanc, L. *et al.*  (2009). Dynamics of aboveground carbon stocks in a selectively logged tropical forest. Ecological Applications, [19, 1397–1404](https://doi.org/10.1890/08-1572.1).
+- Bonal, D. *et al.* (2007). The successional status of tropical rainforest tree species is associated with differences in leaf carbon isotope discrimination and functional traits. Annals of Forest Science, [64, 169–176](https://doi.org/10.1051/forest:2006101).
 
 
 ### Ecology
@@ -281,12 +404,87 @@ I contributed to synthesis and large-scale studies papers in ecology.
 
 N/A
 
-2019 - 2023 
+2023 - 2019
 
-- Steidinger, B. S. *et al.* (2019). Climatic controls of decomposition drive the global biogeography of forest tree symbioses. Nature, [569, 404–408](https://doi.org/10.1038/s41586-019-1128-0).
-- Kattge, J. *et al.* (2020). TRY plant trait database – enhanced coverage and open access. Global Change Biology, [26, 119–188](https://doi.org/10.1111/gcb.14904).
+- Ma, H.  *et al.* (2023). The global biogeography of tree leaf form and habit. Nature Plants, [9, 1795–1809](https://doi.org/10.1038/s41477-023-01543-5).
+- Hordijk, I. *et al.* (2023). Evenness mediates the global relationship between forest productivity and richness. Journal of Ecology, [111, 1308–1326](https://doi.org/10.1111/1365-2745.14098).
+- Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. Nature, [in press](https://doi.org/10.1038/s41586-023-06723-z).
 - Delavaux, C. S. *et al.* (2023). Native diversity buffers against severity of non-native tree invasions. Nature, [621, 773–781](https://doi.org/10.1038/s41586-023-06440-7).
 - Liang, J. *et al.* (2022). Co-limitation towards lower latitudes shapes global forest diversity gradients. Nature Ecology & Evolution, [6, 1423–1437](https://doi.org/10.1038/s41559-022-01831-x).
-- Hordijk, I. *et al.* (2023). Evenness mediates the global relationship between forest productivity and richness. Journal of Ecology, [111, 1308–1326](https://doi.org/10.1111/1365-2745.14098).
-- Ma, H.  *et al.* (2023). The global biogeography of tree leaf form and habit. Nature Plants, [9, 1795–1809](https://doi.org/10.1038/s41477-023-01543-5).
-- Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. Nature, [in press](https://doi.org/10.1038/s41586-023-06723-z).
+- Kattge, J. *et al.* (2020). TRY plant trait database – enhanced coverage and open access. Global Change Biology, [26, 119–188](https://doi.org/10.1111/gcb.14904).
+- Steidinger, B. S. *et al.* (2019). Climatic controls of decomposition drive the global biogeography of forest tree symbioses. Nature, [569, 404–408](https://doi.org/10.1038/s41586-019-1128-0).
+
+
+### Student supervision
+
+I contributed to the publications of students I supervised.
+
+N/A
+
+Present - 2007
+
+- Penel, B., Freycon, V., Marcon, E., Rossi, V., Cornu, G., Bénédet, F., Forni, E., & Gourlet-Fleury, S. (2022). Macrotermes termite mounds influence the spatial pattern of tree species in two African rainforest sites, in northern Congo. But were they really forests in the past? Journal of Tropical Ecology, [38, 267–274](https://doi.org/10.1017/S0266467422000165).
+- Mirabel, A., Marcon, E., & Hérault, B. (2021). 30 Years of postdisturbance recruitment in a Neotropical forest. Ecology and Evolution, [11, 14448–14458](https://doi.org/10.1002/ece3.7634).
+- Mirabel, A., Hérault, B., & Marcon, E. (2020). Diverging taxonomic and functional trajectories following disturbance in a Neotropical forest. Science of The Total Environment, [720, 137397](https://doi.org/10.1016/J.SCITOTENV.2020.137397).
+- Ollivier, M., Baraloto, C., & Marcon, E. (2007). A trait database for Guianan rain forest trees permits intra- and inter-specific contrasts. Annals of Forest Science, [64, 781–786](https://doi.org/10.1051/forest:2007058).
+
+
+### Books
+
+I wrote two scientific books which are available in open access on HAL and are kept up to date on GitHub.
+
+N/A
+
+Present - 2015
+
+- Marcon, E. (2021). Working R. UMR Amap. Montpellier, France. https://doi.org/10.5281/zenodo.5778902.
+- Marcon, E. (2018). Mesures de la Biodiversité. UMR EcoFoG Kourou, France. https://agroparistech.hal.science/cel-01205813v5.
+
+::: aside
+<i class="fa-solid fa-book-open-reader"></i> [Working with R](https://ericmarcon.github.io/WorkingWithR/)
+
+<i class="fa-solid fa-book-open-reader"></i> [Travailler avec R](https://ericmarcon.github.io/travailleR/) (in French)
+
+<i class="fa-solid fa-book-open-reader"></i> [Mesures de la Biodiversité](https://ericmarcon.github.io/MesuresBioDiv2/) (in French)
+:::
+
+
+Software development {data-icon=laptop-code}
+--------------------------------------------------------------------------------
+
+### entropart
+
+entropart is an R package that provides functions to calculate alpha, beta and gamma diversity of communities, including phylogenetic and functional diversity. Estimation-bias corrections are available.
+
+N/A
+
+2015
+
+::: aside
+<i class="fa-brands fa-github"></i> [Package entropart](https://ericmarcon.github.io/entropart/)
+:::
+
+
+### dbmss
+
+dbmss is an R package for simple computation of spatial statistic functions of distance to characterize the spatial structures of mapped objects, including classical ones (Ripley’s $K$ and others) and more recent ones used by spatial economists (Duranton and Overman’s $K_d$, Marcon and Puech’s $M$). It relies on spatstat for some core calculation.
+
+N/A
+
+2015
+
+::: aside
+<i class="fa-brands fa-github"></i> [Package dbmss](https://ericmarcon.github.io/dbmss/)
+:::
+
+### memoiR
+
+Templates to publish well-formatted and reproducible documents both in HTML and PDF formats.
+
+N/A
+
+2021
+
+::: aside
+<i class="fa-brands fa-github"></i> [Package memoiR](https://ericmarcon.github.io/memoiR/)
+:::
