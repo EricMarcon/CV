@@ -109,6 +109,16 @@ Je suis chercheur en écologie tropicale à l’[UMR Amap](http://amap.cirad.fr/
 
 Je suis directeur de la formation du [Laboratoire d'Excellence Ceba](https://www.labex-ceba.fr/) (Centre d'Etudes de la Biodiversité Amazonienne) et membre du [Conseil Scientifique](https://www.ofb.gouv.fr/le-conseil-scientifique) de l’Office Français de la Biodiversité.
 
+```{r, include=FALSE}
+library("lubridate")
+naiss <- ymd("1967-10-14")
+evt <- Sys.Date()
+my_age <- trunc(time_length(interval(naiss, evt), "years"))
+```
+
+J'ai `r my_age` ans et j'habite à Montpellier.
+
+
 
 Experience Professionelle {data-icon=suitcase}
 --------------------------------------------------------------------------------
@@ -145,7 +155,7 @@ Antony, France
 
 2002 - 1999
 
-### Responsable informatique du centre de Paris de l’ENGREF
+### Responsable informatique du centre de Paris de l’Engref
 
 Ecole Nationale du Génie Rural, des Eaux et des Forêts
 
@@ -155,14 +165,11 @@ Paris, France
 
 ### Ingénieur forestier
 
-Office National des Forêts
+Chef de division à l'Office National des Forêts
 
 Charleville-Mézières, France
 
 1995 - 1991
-
-Chef de la division de Charleville-Rocroi.
-4 groupes techniques, 28 collaborateurs, 15 ouvriers forestiers, 29000 hectares de forêt productive (dont 65 forêts communales).
 
 
 
@@ -177,7 +184,7 @@ Kourou, Guyane française
 
 2016
 
-Mémoire : Mesurer la Biodiversité et la Structuration Spatiale
+[Mémoire](https://theses.hal.science/tel-01502970/) : Mesurer la Biodiversité et la Structuration Spatiale
 
 ### AgroParisTech
 
@@ -187,7 +194,7 @@ Paris, France
 
 2010
 
-Thèse : Statistiques spatiales avec applications à l’écologie  et à l’économie
+[Thèse](https://theses.hal.science/pastel-00540327/) : Statistiques spatiales avec applications à l’écologie et à l’économie
 
 ### Ecole Nationale du Génie Rural, des Eaux et des Forêts
 
@@ -229,7 +236,7 @@ Montpellier, France
 Présent - 2020
 
 ::: aside
-<i class="fa fa-globe"></i> [UMR Amap](https://amap.cirad.fr/)
+<i class="fa fa-flask"></i> [UMR Amap](https://amap.cirad.fr/)
 :::
 
 
@@ -243,6 +250,9 @@ Kourou, Guyane française
 
 - Directeur adjoint de 2006 à 2009 puis directeur à partir de 2010
 
+::: aside
+<i class="fa fa-flask"></i> [UMR EcoFoG](https://www.ecofog.gf/)
+:::
 
 
 Enseignement {data-icon=chalkboard-teacher}
@@ -259,7 +269,7 @@ Présent - 2020
 Je coordonne le parcours Biodiversité végétale et Gestion des Ecosystèmes Tropicaux (BioGET) co-organisé par l'Université de Montpellier et AgroParisTech.
 
 ::: aside
-<i class="fa fa-globe"></i> [Master BioGET](https://biologie-ecologie.com/master-bee/bioget/)
+<i class="fa fa-university"></i> [Master BioGET](https://biologie-ecologie.com/master-bee/bioget/)
 :::
 
 ### Dominante d'Approfondissement AgroParisTech
@@ -273,7 +283,7 @@ Présent - 2022
 J'enseigne l'écologie forestière tropicale, l'épistémologie en écologie et les statistiques sous R aux élèves ingénieurs en dernière année, dans la dominante d'approfondissement Gestion Environnementale des Ecosystèmes Forestiers Tropicaux.
 
 ::: aside
-<i class="fa fa-globe"></i> [DA Geeft](https://www.genv-agroparistech.fr/fr/nos-formations/ingenieur-agroparistech-da-geeft)
+<i class="fa fa-university"></i> [DA Geeft](https://www.genv-agroparistech.fr/fr/nos-formations/ingenieur-agroparistech-da-geeft)
 :::
 
 
@@ -288,13 +298,15 @@ Présent - 2010
 J'enseigne la mesure de la biodiversité et les distributions d'abondances d'espèces aux étudiants de Master 2 du parcours Ecologie des Forêts Tropicales. Ce parcours reçoit des étudiants du Master Erasmus Mundus Tropimundo, coordonné par l'Université libre de Bruxelles.
 
 ::: aside
-<i class="fa fa-globe"></i> [Master EFT](https://www.ecofog.gf/spip.php?rubrique47)
+<i class="fa fa-university"></i> [Master EFT](https://www.ecofog.gf/spip.php?rubrique47)
+
+<i class="fa fa-university"></i> [Master Tropimundo](https://tropimundo.eu/)
 :::
 
 
-### Master Erasmus Mundus
+### Master Erasmus Mundus Global Forestry
 
-AgroParisTech et Université de Guyane
+Université de Copenhague
 
 Copenhague, Danemark
 
@@ -303,7 +315,7 @@ Présent - 2022
 J'enseigne l'écologie forestière tropicale et la gestion forestière durable dans le Master 1 Erasmus Mundus Global Forestry, coordonné par l'Université de Copenhague.
 
 ::: aside
-<i class="fa fa-globe"></i> [Master Global Forestry](https://globalforestry.eu/)
+<i class="fa fa-university"></i> [Master Global Forestry](https://globalforestry.eu/)
 :::
 
 
@@ -411,14 +423,63 @@ Présent - 2007
 - Ollivier, M., Baraloto, C., & Marcon, E. (2007). A trait database for Guianan rain forest trees permits intra- and inter-specific contrasts. Annals of Forest Science, [64, 781–786](https://doi.org/10.1051/forest:2007058).
 
 
+### Ouvrages
+
+J'ai écrit deux livres scientifiques disponibles en accès libre sur HAL et maintenus à jour en permanence sur GitHub.
+
+N/A
+
+Présent - 2015
+
+- Marcon, E. (2021). Travailler avec R. UMR Amap. Montpellier, France. https://doi.org/10.5281/zenodo.5778902.
+- Marcon, E. (2018). Mesures de la Biodiversité. UMR EcoFoG Kourou, France. https://agroparistech.hal.science/cel-01205813v5.
+
+::: aside
+<i class="fa-solid fa-book-open-reader"></i> [Travailler avec R](https://ericmarcon.github.io/travailleR/)
+
+<i class="fa-solid fa-book-open-reader"></i> [Working with R](https://ericmarcon.github.io/WorkingWithR/)
+
+<i class="fa-solid fa-book-open-reader"></i> [Mesures de la Biodiversité](https://ericmarcon.github.io/MesuresBioDiv2/)
+:::
+
+
 Développement logiciel {data-icon=laptop-code}
 --------------------------------------------------------------------------------
 
 ### entropart
 
-Package R pour mesurer la diversité.
+entropart est un package R qui fournit des fonctions pour calculer la diversité $\alpha$, $\beta$ et $\gamma$ des communautés, y compris la diversité phylogénétique et fonctionnelle.
+Des corrections de biais d'estimation sont disponibles.
 
 N/A
 
 2015
 
+::: aside
+<i class="fa-brands fa-github"></i> [Package entropart](https://ericmarcon.github.io/entropart/)
+:::
+
+
+### dbmss
+
+dbmss est un package R pour le calcul simple des statistiques spatiales non paramétriques, y compris les fonctions classiques (K de Ripley et autres) et les fonctions plus récentes utilisées par les économistes spatiaux ($K_d$ de Duranton et Overman, $M$ de Marcon et Puech).
+
+N/A
+
+2015
+
+::: aside
+<i class="fa-brands fa-github"></i> [Package dbmss](https://ericmarcon.github.io/dbmss/)
+:::
+
+### memoiR
+
+Package R pour la publication de documents reproductibles bien formatés.
+
+N/A
+
+2021
+
+::: aside
+<i class="fa-brands fa-github"></i> [Package memoiR](https://ericmarcon.github.io/memoiR/)
+:::
