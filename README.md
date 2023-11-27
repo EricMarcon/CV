@@ -1,17 +1,19 @@
 ![BuildStatus](https://github.com/EricMarcon/CV/workflows/pagedown/badge.svg)
 
-# CV d'Eric Marcon
+# Mon CV
 
 Formats:
 
-- [HTML](Eric_Marcon-fr.html)
-- [PDF](Eric_Marcon-fr.pdf)
+- [HTML](https://ericmarcon.github.io/CV/Eric_Marcon-fr.html)
+- [PDF](https://ericmarcon.github.io/CV/Eric_Marcon-fr.pdf)
 
 
-# Eric Marcon's resume
+# My Résumé
 
 Formats:
 
-- [HTML](Eric_Marcon-en.html)
-- [PDF](Eric_Marcon-en.pdf)
+- [HTML](https://ericmarcon.github.io/CV/Eric_Marcon-en.html)
+- [PDF](https://ericmarcon.github.io/CV/Eric_Marcon-en.pdf)
 
+
+Made with the R package [**pagedown**](https://github.com/rstudio/pagedown). 
