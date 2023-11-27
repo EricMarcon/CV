@@ -5,7 +5,7 @@ date: "`r Sys.Date()`"
 output:
   pagedown::html_resume:
     # set it to true for a self-contained HTML page but it'll take longer to render
-    self_contained: false
+    self_contained: true
 # uncomment this line to produce HTML and PDF in RStudio:
 # knit: pagedown::chrome_print
 ---
@@ -93,7 +93,6 @@ Langues {#skills}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-
 Mise à jour le `r format(Sys.Date(), format="%d %B %Y")`.
 
 
@@ -147,7 +146,7 @@ Kourou, Guyane française
 
 2006 - 2002
 
-### Responsable informatique de la direction générale du Cemagref.
+### Responsable informatique de la direction générale du Cemagref
 
 Institut de recherche pour l'ingénierie de l'agriculture et de l'environnement
 
@@ -348,7 +347,7 @@ AuthorID %>%
     geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = 'darkgrey') +
     geom_point(size = 3, color = 'firebrick') +
     labs(
-      title = "Citations par année (Google Scholar)",
+      title = "Citations (Google Scholar)",
       caption = paste("Indice h :", AuthorID %>% get_profile %>% pluck("h_index")),
       x = "Année",
       y = "Citations"
@@ -462,7 +461,7 @@ N/A
 
 ### dbmss
 
-dbmss est un package R pour le calcul simple des statistiques spatiales non paramétriques, y compris les fonctions classiques (K de Ripley et autres) et les fonctions plus récentes utilisées par les économistes spatiaux ($K_d$ de Duranton et Overman, $M$ de Marcon et Puech).
+dbmss est un package R pour le calcul simple des statistiques spatiales non paramétriques, y compris les fonctions classiques ($K$ de Ripley et autres) et les fonctions plus récentes utilisées par les économistes spatiaux ($K_d$ de Duranton et Overman, $M$ de Marcon et Puech).
 
 N/A
 
