@@ -323,7 +323,7 @@ I teach tropical forest ecology and sustainable forest management in the Erasmus
 
 
 
-Selected Publications {data-icon=file}
+Publications {data-icon=file}
 --------------------------------------------------------------------------------
 
 ### Measurement of Biodiversity
@@ -371,6 +371,7 @@ N/A
 
 - Lang, G., Marcon, E., & Puech, F. (2020). Distance-based measures of spatial concentration: Introducing a relative density function. The Annals of Regional Science, [64, 243–265](https://doi.org/10.1007/s00168-019-00946-7).
 - Marcon, E. (2019). Mesure de la biodiversité et de la structuration spatiale de l’activité économique par l’entropie. Revue Économique, [70(3), 305–326](https://doi.org/10.3917/reco.703.0305). [English translation](https://ericmarcon.github.io/Revue-Economique-2019/).
+- Floch, J.-M., Marcon, E., & Puech, F. (2018). Spatial distribution of points. In V. Loonis & M.-P. (de) Bellefon (Eds.), Handbook of spatial analysis (pp. [71–111](https://www.insee.fr/en/information/3635545)). Insee-Eurostat.
 - Marcon, E., & Puech, F. (2017). A typology of distance-based measures of spatial concentration. Regional Science and Urban Economics, [62, 56–67](https://doi.org/10.1016/j.regsciurbeco.2016.10.004).
 - Marcon, E., Traissac, S., Puech, F., & Lang, G. (2015). Tools to characterize point patterns: *dbmss* for R. Journal of Statistical Software, [67, 1–15](https://doi.org/10.18637/jss.v067.c03).
 - Marcon, E., Traissac, S., & Lang, G. (2013). A statistical test for Ripley’s function rejection of poisson null hypothesis. ISRN Ecology, [Article ID 753475](https://doi.org/10.1155/2013/753475).

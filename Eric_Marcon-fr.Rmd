@@ -318,7 +318,7 @@ J'enseigne l'écologie forestière tropicale et la gestion forestière durable d
 :::
 
 
-Publications principales {data-icon=file}
+Publications {data-icon=file}
 --------------------------------------------------------------------------------
 
 ### Mesure de la biodiversité
@@ -362,7 +362,7 @@ J'ai co-écrit avec Florence Puech une série d'articles dans le domaine de la m
 
 N/A
 
-2023 - 2003 
+2020 - 2003 
 
 - Lang, G., Marcon, E., & Puech, F. (2020). Distance-based measures of spatial concentration: Introducing a relative density function. The Annals of Regional Science, [64, 243–265](https://doi.org/10.1007/s00168-019-00946-7).
 - Marcon, E. (2019). Mesure de la biodiversité et de la structuration spatiale de l’activité économique par l’entropie. Revue Économique, [70(3), 305–326](https://doi.org/10.3917/reco.703.0305). [English translation](https://ericmarcon.github.io/Revue-Economique-2019/).
@@ -373,6 +373,20 @@ N/A
 - Marcon, E., Puech, F., & Traissac, S. (2012). Characterizing the relative spatial structure of point patterns. International Journal of Ecology, [Article ID 619281](https://doi.org/10.1155/2012/619281).
 - Marcon, E., & Puech, F. (2010). Measures of the geographic concentration of industries: Improving distance-based methods. Journal of Economic Geography, [10, 745–762](https://doi.org/10.1093/jeg/lbp056).
 - Marcon, E., & Puech, F. (2003). Evaluating the geographic concentration of industries using distance-based methods. Journal of Economic Geography, [3, 409–428](https://doi.org/10.1093/jeg/lbg016).
+
+
+### Economie géographique
+
+J'ai participé à plusieurs articles et chapitres d'ouvrage en français concernant l'application de ces méthodes.
+
+N/A
+
+2018 - 2005 
+
+- Floch, J.-M., Marcon, E., & Puech, F. (2018). Les configurations de points. In V. Loonis & M.-P. (de) Bellefon (Eds.), Manuel d’analyse spatiale (pp. [73–114](https://www.insee.fr/fr/information/3635442)). Insee-Eurostat.
+- Marcon, E., & Puech, F. (2015). Mesures de la concentration spatiale en espace continu: Théorie et applications. Économie et Statistique, [474](https://www.leseditionsdunet.com/livre/economie-et-statistique-ndeg474), 105–131.
+- Marcon, E., & Puech, F. (2012). La mesure en économie internationale. In L. Abdelmalki, J.-P. Allegret, F. Puech, M. S. Jallab, & A. Silem (Eds.), Développements récents en économie et finances internationales (pp. [15–27](https://www.cairn.info/developpements-recents-en-economie-et-finances--9782200280536.htm)). Armand Colin.
+- Marcon, E., Mucchielli, J.-L., & Puech, F. (2005). Concentration géographique de l’emploi industriel et dynamiques territoriales en France de 1993 à 2001. In E. M. Mouhoud (Ed.), Localisation des activités et stratégies de l’Etat—Rapport du commissariat général du plan groupe perroux (pp. [99–109](https://www.vie-publique.fr/rapport/27802-la-localisation-des-activites-et-les-strategies-de-letat-contribution)). L’Action Municipale. 
 
 
 ### Écologie des forêts tropicales
