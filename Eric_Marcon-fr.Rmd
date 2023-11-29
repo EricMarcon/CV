@@ -48,7 +48,7 @@ theme_update(
 )
 knitr::opts_chunk$set(dev.args = list(bg = "transparent"))
 # Set language to format the dates correctly
-Sys.setenv(LANG = "fr")
+Sys.setlocale("LC_TIME", "fr_FR") 
 # Random seed
 set.seed(973)
 ```
@@ -455,6 +455,63 @@ Présent - 2015
 <i class="fa-solid fa-book-open-reader"></i> [Working with R](https://ericmarcon.github.io/WorkingWithR/)
 
 <i class="fa-solid fa-book-open-reader"></i> [Mesures de la Biodiversité](https://ericmarcon.github.io/MesuresBioDiv2/)
+:::
+
+
+### Révision d'articles
+
+J'ai été rapporteur pour de nombreux journaux scientifiques.
+
+N/A
+
+Present - 2003
+
+::: concise
+- Acta Biotheoretica
+- Annals of Forest Science
+- AStA Advances in Statistical Analysis
+- Biodiversity and Conservation
+- Bois et Forêts des Tropiques
+- Cybergeo 
+- Diversity
+- Ecography
+- Ecological Indicators
+- Ecology and Evolution
+- Économie et Prévision
+- Économie et Statistique
+- Empirical Economics
+- Entropy
+- Environmental and Ecological Statistics
+- Environmetrics
+- Forest Ecosystems
+- Geographical Analysis
+- Hacettepe Journal of Mathematics and Statistics
+- Indian Journal of Science & Technology
+- Journal of Classification
+- Journal of Economic Geography
+- Journal of Geographical Systems
+- Journal of the Royal Statistical Society
+- Journal of Theoretical Biology
+- Journal of Vegetation Science
+- Mathematics
+- Methods in Ecology and Evolution
+- Microorganisms
+- Molecular Ecology Resources
+- Oecologia
+- Papers in Regional Science
+- PeerJ
+- Planning Practice and Research
+- Plos ONE
+- Regional Science and Urban Economics
+- Regional Studies
+- Science of the Total Environment
+- Spatial Economic Analysis
+- Stochastic Environmental Research and Risk Assessment
+- The R Journal
+- Theoretical Ecology
+- Urban Geography
+- Urban Studies
+- Web Ecology
 :::
 
 
