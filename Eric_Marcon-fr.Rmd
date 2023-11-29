@@ -47,6 +47,8 @@ theme_update(
   text = element_text(size=20)
 )
 knitr::opts_chunk$set(dev.args = list(bg = "transparent"))
+# Set language to format the dates correctly
+Sys.setenv(LANG = "fr")
 # Random seed
 set.seed(973)
 ```
