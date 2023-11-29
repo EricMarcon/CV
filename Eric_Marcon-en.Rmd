@@ -62,7 +62,7 @@ Contact Info {#contact}
 --------------------------------------------------------------------------------
 
 - <i class="fa fa-envelope"></i> eric.marcon@agroparistech.fr
-- <i class="fa fa-globe"></i> [Page personnelle](https://ericmarcon.github.io/fr/)
+- <i class="fa fa-globe"></i> [Home Page](https://ericmarcon.github.io/fr/)
 - <i class="fa fa-github"></i> [Github](https://github.com/ericmarcon)
 - <i class="fa fa-google"></i> [Google Scholar](https://scholar.google.com/citations?user=4iLBmbUAAAAJ)
 - <i class="fa fa-phone"></i> +33 7 87 05 70 55
@@ -73,7 +73,7 @@ Skills {#skills}
 
 - Experienced in management, research, teaching, forestry and IT.
 
-- Skills in ecology, economics, forest science, statistics, data analysis and modelling.
+- Skilled in ecology, economics, forest science, statistics, data analysis and modelling.
 
 - Highly skilled in R.
 
@@ -301,9 +301,9 @@ Present - 2010
 I teach biodiversity measurement and species abundance distributions to Master 2 students in the Ecology of Tropical Forests programme. This course receives students from the Erasmus Mundus Tropimundo Master's, coordinated by the Free University of Brussels.
 
 ::: aside
-<i class="fa fa-university"></i> [EFT Msc](https://www.ecofog.gf/spip.php?rubrique47)
+<i class="fa fa-university"></i> [EFT MSc](https://www.ecofog.gf/spip.php?rubrique47)
 
-<i class="fa fa-university"></i> [Tropimundo Msc](https://tropimundo.eu/)
+<i class="fa fa-university"></i> [Tropimundo MSc](https://tropimundo.eu/)
 :::
 
 
@@ -318,7 +318,7 @@ Present - 2022
 I teach tropical forest ecology and sustainable forest management in the Erasmus Mundus Global Forestry Master 1 programme, coordinated by the University of Copenhagen.
 
 ::: aside
-<i class="fa fa-university"></i> [Global Forestry Msc](https://globalforestry.eu/)
+<i class="fa fa-university"></i> [Global Forestry MSc](https://globalforestry.eu/)
 :::
 
 
@@ -384,8 +384,6 @@ N/A
 ### Tropical Forest Ecology
 
 I contributed to several research programmes in French Guiana.
-
-N/A
 
 Kourou, Guyane française
 
