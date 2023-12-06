@@ -371,6 +371,7 @@ N/A
 
 2023 - 2003 
 
+- Marcon, E., & Puech, F. (2023). Mapping distributions in non-homogeneous space with distance-based methods. Journal of Spatial Econometrics, [4, 13](https://doi.org/10.1007/s43071-023-00042-1).
 - Lang, G., Marcon, E., & Puech, F. (2020). Distance-based measures of spatial concentration: Introducing a relative density function. The Annals of Regional Science, [64, 243–265](https://doi.org/10.1007/s00168-019-00946-7).
 - Marcon, E. (2019). Mesure de la biodiversité et de la structuration spatiale de l’activité économique par l’entropie. Revue Économique, [70(3), 305–326](https://doi.org/10.3917/reco.703.0305). [English translation](https://ericmarcon.github.io/Revue-Economique-2019/).
 - Floch, J.-M., Marcon, E., & Puech, F. (2018). Spatial distribution of points. In V. Loonis & M.-P. (de) Bellefon (Eds.), Handbook of spatial analysis (pp. [71–111](https://www.insee.fr/en/information/3635545)). Insee-Eurostat.
