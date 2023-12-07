@@ -408,9 +408,9 @@ N/A
 
 2023 - 2019
 
+- Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. Nature, [624, 92–101](https://doi.org/10.1038/s41586-023-06723-z).
 - Ma, H.  *et al.* (2023). The global biogeography of tree leaf form and habit. Nature Plants, [9, 1795–1809](https://doi.org/10.1038/s41477-023-01543-5).
 - Hordijk, I. *et al.* (2023). Evenness mediates the global relationship between forest productivity and richness. Journal of Ecology, [111, 1308–1326](https://doi.org/10.1111/1365-2745.14098).
-- Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. Nature, [in press](https://doi.org/10.1038/s41586-023-06723-z).
 - Delavaux, C. S. *et al.* (2023). Native diversity buffers against severity of non-native tree invasions. Nature, [621, 773–781](https://doi.org/10.1038/s41586-023-06440-7).
 - Liang, J. *et al.* (2022). Co-limitation towards lower latitudes shapes global forest diversity gradients. Nature Ecology & Evolution, [6, 1423–1437](https://doi.org/10.1038/s41559-022-01831-x).
 - Kattge, J. *et al.* (2020). TRY plant trait database – enhanced coverage and open access. Global Change Biology, [26, 119–188](https://doi.org/10.1111/gcb.14904).
