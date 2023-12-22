@@ -494,6 +494,7 @@ Present - 2003
 - Papers in Regional Science
 - PeerJ
 - Planning Practice and Research
+- Plants
 - Plos ONE
 - Regional Science and Urban Economics
 - Regional Studies
