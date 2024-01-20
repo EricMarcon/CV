@@ -408,7 +408,7 @@ N/A
 
 2023 - 2019
 
-- Bouchard, E. *et al.*  (2023). Global patterns and environmental drivers of forest functional composition. Global Ecology and Biogeography, [in press](https://doi.org/10.1111/geb.13790).
+- Bouchard, E. *et al.*  (2024). Global patterns and environmental drivers of forest functional composition. Global Ecology and Biogeography, [33, 303-324](https://doi.org/10.1111/geb.13790).
 - Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. Nature, [624, 92–101](https://doi.org/10.1038/s41586-023-06723-z).
 - Ma, H.  *et al.* (2023). The global biogeography of tree leaf form and habit. Nature Plants, [9, 1795–1809](https://doi.org/10.1038/s41477-023-01543-5).
 - Hordijk, I. *et al.* (2023). Evenness mediates the global relationship between forest productivity and richness. Journal of Ecology, [111, 1308–1326](https://doi.org/10.1111/1365-2745.14098).
