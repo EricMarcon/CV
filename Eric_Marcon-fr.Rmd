@@ -434,6 +434,7 @@ N/A
 
 Présent - 2007
 
+- Nemetschek, D., Derroire, G., Marcon, E., Aubry-Kientz, M., Auer, J., Badouard, V., Baraloto, C., Bauman, D., Le Blaye, Q., Boisseaux, M., Bonal, D., Coste, S., Dardevet, E., Heuret, P., Hietz, P., Levionnois, S., Maréchaux, I., McMahon, S. M., Stahl, C., Vleminckx, J., Wanek, W., Ziegler, C., & Fortunel, C. (2024). Climate anomalies and neighbourhood crowding interact in shaping tree growth in old‐growth and selectively logged tropical forests. Journal of Ecology,[in press](https://doi.org/10.1111/1365-2745.14256)
 - Penel, B., Freycon, V., Marcon, E., Rossi, V., Cornu, G., Bénédet, F., Forni, E., & Gourlet-Fleury, S. (2022). Macrotermes termite mounds influence the spatial pattern of tree species in two African rainforest sites, in northern Congo. But were they really forests in the past? Journal of Tropical Ecology, [38, 267–274](https://doi.org/10.1017/S0266467422000165).
 - Mirabel, A., Marcon, E., & Hérault, B. (2021). 30 Years of postdisturbance recruitment in a Neotropical forest. Ecology and Evolution, [11, 14448–14458](https://doi.org/10.1002/ece3.7634).
 - Mirabel, A., Hérault, B., & Marcon, E. (2020). Diverging taxonomic and functional trajectories following disturbance in a Neotropical forest. Science of The Total Environment, [720, 137397](https://doi.org/10.1016/J.SCITOTENV.2020.137397).
