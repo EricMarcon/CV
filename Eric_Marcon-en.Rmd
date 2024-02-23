@@ -505,6 +505,7 @@ Present - 2003
 - Stochastic Environmental Research and Risk Assessment
 - The R Journal
 - Theoretical Ecology
+- Theory in Biosciences
 - Urban Geography
 - Urban Studies
 - Web Ecology
