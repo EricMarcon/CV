@@ -107,7 +107,7 @@ Eric Marcon {#title}
 
 I am a researcher in Tropical Ecology with [Amap lab](http://amap.cirad.fr/en/), a professor at [AgroParisTech](http://www.agroparistech.fr/) and a coordinator of the [BioGET](https://biologie-ecologie.com/master-b2e/parcours/bioget/) course of the Biodiversity, Ecology and Evolution master's degree at AgroParisTech and Montpellier University.
 
-I'm the director of training with [Ceba Excellence Laboratory](https://www.labex-ceba.fr/) (Centre d'Etudes de la Biodiversité Amazonienne) and a member of the [Scientific Council](https://www.ofb.gouv.fr/le-conseil-scientifique) of the French Office for Biodiversity.
+I'm the director of training with [Ceba Excellence Laboratory](https://www.labex-ceba.fr/) (Centre d'Etudes de la Biodiversité Amazonienne),a member of the [Scientific Council](https://www.ofb.gouv.fr/le-conseil-scientifique) of the French Office for Biodiversity and a member of the [domain committee](https://www.ecologie.gouv.fr/evaluation-des-activites-dexpertise-scientifique-et-technique-comites-domaine) *Sustainable management of Natural Resources - Biodiversity* of the French Ministry of Ecology.
 
 ```{r, include=FALSE}
 library("lubridate")
