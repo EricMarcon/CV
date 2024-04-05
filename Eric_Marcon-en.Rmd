@@ -336,7 +336,7 @@ N/A
 
 2024 - 2012
 
-- Marcon, E., Mirabel, A., Molino, J.-F., Sabatier, D. (in press). Estimation of the number of tree species in French Guiana by extrapolation of permanent plots richness. *Journal of Tropical Ecology*. [Postprint](https://ericmarcon.github.io/JTE-22-105/).
+- Marcon, E., Mirabel, A., Molino, J.-F., Sabatier, D. (2024). Estimation of the number of tree species in French Guiana by extrapolation of permanent plots richness. *Journal of Tropical Ecology*. [40, e11](https://doi.org/10.1017/S0266467424000099).
 - Grabchak, M., Marcon, E., Lang, G., & Zhang, Z. (2017). The generalized Simpson’s entropy is a measure of biodiversity. *Plos One*, [12, e0173305](https://doi.org/10.1371/journal.pone.0173305).
 - Buckland, S. T., Yuan, Y., & Marcon, E. (2017). Measuring temporal trends in biodiversity. *AStA Advances in Statistical Analysis*, [101, 461–474](https://doi.org/10.1007/s10182-017-0308-1).
 - Pavoine, S., Marcon, E., & Ricotta, C. (2016). ‘Equivalent numbers’ for species, phylogenetic or functional diversity in a nested hierarchy of multiple scales. *Methods in Ecology and Evolution*, [7(10), 1152–1163](https://doi.org/10.1111/2041-210X.12591).
