@@ -504,6 +504,7 @@ Present - 2003
 - Molecular Ecology Resources
 - Nitrogen
 - Oecologia
+- One Earth
 - Papers in Regional Science
 - PeerJ
 - Planning Practice and Research
