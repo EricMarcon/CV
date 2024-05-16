@@ -478,6 +478,7 @@ Present - 2003
 - Bois et Forêts des Tropiques
 - Cybergeo 
 - Diversity
+- Diversity and Distributions
 - Ecography
 - Ecological Indicators
 - Ecology and Evolution
