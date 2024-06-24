@@ -329,7 +329,7 @@ J'ai rédigé une série d'articles pour contribuer au développement de méthod
 
 N/A
 
-2024 - 2012
+Présent - 2012
 
 - Marcon, E., Mirabel, A., Molino, J.-F., Sabatier, D. (2024). Estimation of the number of tree species in French Guiana by extrapolation of permanent plots richness. *Journal of Tropical Ecology*, [40, e11](https://doi.org/10.1017/S0266467424000099).
 - Grabchak, M., Marcon, E., Lang, G., & Zhang, Z. (2017). The generalized Simpson’s entropy is a measure of biodiversity. *Plos One*, [12, e0173305](https://doi.org/10.1371/journal.pone.0173305).
@@ -365,7 +365,7 @@ J'ai co-écrit avec Florence Puech une série d'articles dans le domaine de la m
 
 N/A
 
-2023 - 2003 
+Présent - 2003 
 
 - Marcon, E., & Puech, F. (2023). Mapping distributions in non-homogeneous space with distance-based methods. *Journal of Spatial Econometrics*, [4, 13](https://doi.org/10.1007/s43071-023-00042-1).
 - Lang, G., Marcon, E., & Puech, F. (2020). Distance-based measures of spatial concentration: Introducing a relative density function. *The Annals of Regional Science*, [64, 243–265](https://doi.org/10.1007/s00168-019-00946-7).
@@ -415,7 +415,7 @@ J'ai contribué à des documents de synthèse et à des études à grande échel
 
 N/A
 
-2024 - 2019
+Présent - 2019
 
 - Zou, Y.*et al.*  (2024). Positive Feedbacks and Alternative Stable States in Forest Leaf Types. *Nature Communications* [15, 4658](https://doi.org/10.1038/s41467-024-48676-5).
 - Bouchard, E. *et al.*  (2024). Global patterns and environmental drivers of forest functional composition. *Global Ecology and Biogeography*, [33, 303-324](https://doi.org/10.1111/geb.13790).
@@ -517,6 +517,7 @@ Present - 2003
 - Science of the Total Environment
 - Spatial Economic Analysis
 - Stochastic Environmental Research and Risk Assessment
+- Sustainability
 - The R Journal
 - Theoretical Ecology
 - Theory in Biosciences
