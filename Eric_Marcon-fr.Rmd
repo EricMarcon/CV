@@ -502,6 +502,7 @@ Present - 2003
 - Journal of the Royal Statistical Society
 - Journal of Theoretical Biology
 - Journal of Vegetation Science
+- Land
 - Mathematics
 - Methods in Ecology and Evolution
 - Microorganisms
