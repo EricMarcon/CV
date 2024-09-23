@@ -417,7 +417,7 @@ N/A
 
 Présent - 2019
 
-- Hordijk, I. *et al.* (2024). Dominance and rarity in tree communities across the globe: Patterns, predictors and threats. *Global Ecology and Biogeography* [e13889](https://doi.org/10.1111/geb.13889).
+- Hordijk, I. *et al.* (2024). Dominance and rarity in tree communities across the globe: Patterns, predictors and threats. *Global Ecology and Biogeography* [33, e13889](https://doi.org/10.1111/geb.13889).
 - Zou, Y.*et al.*  (2024). Positive Feedbacks and Alternative Stable States in Forest Leaf Types. *Nature Communications* [15, 4658](https://doi.org/10.1038/s41467-024-48676-5).
 - Bouchard, E. *et al.*  (2024). Global patterns and environmental drivers of forest functional composition. *Global Ecology and Biogeography*, [33, 303-324](https://doi.org/10.1111/geb.13790).
 - Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. *Nature*, [624, 92–101](https://doi.org/10.1038/s41586-023-06723-z).
