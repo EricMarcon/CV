@@ -497,6 +497,7 @@ Present - 2003
 - Environmental and Ecological Statistics
 - Environmetrics
 - Forest Ecosystems
+- Forestry Ideas
 - Forests
 - Geographical Analysis
 - Hacettepe Journal of Mathematics and Statistics
