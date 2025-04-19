@@ -109,11 +109,11 @@ I am a researcher in Tropical Ecology with [Amap lab](http://amap.cirad.fr/en/),
 
 I'm the director of training with [Ceba Excellence Laboratory](https://www.labex-ceba.fr/) (Centre d'Etudes de la Biodiversité Amazonienne),a member of the [Scientific Council](https://www.ofb.gouv.fr/le-conseil-scientifique) of the French Office for Biodiversity and a member of the [domain committee](https://www.ecologie.gouv.fr/evaluation-des-activites-dexpertise-scientifique-et-technique-comites-domaine) *Sustainable management of Natural Resources - Biodiversity* of the French Ministry of Ecology.
 
-```{r, include=FALSE}
+```{r age, include=FALSE}
 library("lubridate")
-naiss <- ymd("1967-10-14")
-evt <- Sys.Date()
-my_age <- trunc(time_length(interval(naiss, evt), "years"))
+my_birth <- ymd("1967-10-14")
+today <- Sys.Date()
+my_age <- trunc(time_length(interval(my_birth, today), "years"))
 ```
 
 I am `r my_age` years old and I live in Montpellier, France.
@@ -348,18 +348,27 @@ Present - 2012
 ::: aside
 ```{r citations, echo=FALSE, message=FALSE, warning=FALSE}
 library("scholar")
-AuthorID <- "4iLBmbUAAAAJ" # Eric Marcon
-AuthorID %>% 
+author_id <- "4iLBmbUAAAAJ" # Eric Marcon
+# Personal handle to avoid filtering by Google
+site <- getOption("scholar_site")
+author_url <- paste0(site, "/citations?user=", author_id)
+author_handle <- httr::GET(author_url)
+options(
+  scholar_call_home = FALSE, 
+  scholar_handle = author_handle
+)
+# Figure
+author_id %>% 
   get_citation_history %>% 
   ggplot(aes(year, cites)) +
-    geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = 'darkgrey') +
-    geom_point(size = 3, color = 'firebrick') +
-    labs(
-      title = "Citations (Google Scholar)",
-      caption = paste("h index:", AuthorID %>% get_profile %>% pluck("h_index")),
-      x = "Year",
-      y = "Citations"
-    )
+  geom_segment(aes(xend = year, yend = 0), linewidth = 1, color = 'darkgrey') +
+  geom_point(size = 3, color = 'firebrick') +
+  labs(
+    title = "Citations (Google Scholar)",
+    caption = paste("Indice h :", author_id %>% get_profile %>% pluck("h_index")),
+    x = "Year",
+    y = "Citations"
+  )
 ```
 :::
 
