@@ -1,7 +1,7 @@
 on:
   push:
    branches:
-     - master
+     - none # scholar::get_citation_history() blocked by Google Scholar
 
 name: pagedown
 
@@ -28,15 +28,7 @@ jobs:
         env:
           GITHUB_PAT: ${{ secrets.GH_PAT }}
         run: |
-          lapply(
-            list.files(pattern="*.Rmd"),
-            function(file) rmarkdown::render(file, "all")
-          )
-          lapply(
-            list.files(pattern="*.html"),
-            function(file) pagedown::chrome_print(file, format = "pdf")
-          )
-          memoiR::build_githubpages()
+          source("github_action.R")
         shell: Rscript {0}
       - name: GH Pages Theme
         run: |
