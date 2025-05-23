@@ -1,5 +1,3 @@
-![BuildStatus](https://github.com/EricMarcon/CV/workflows/pagedown/badge.svg)
-
 # Mon CV
 
 Formats:

@@ -29,7 +29,7 @@ output:
 InstallPackages <- function(Packages) {
   InstallPackage <- function(Package) {
     if (!Package %in% installed.packages()[, 1]) {
-      install.packages(Package, repos="https://cran.rstudio.com/")
+      install.packages(Package, repos = "https://cran.rstudio.com/")
     }
   }
   invisible(sapply(Packages, InstallPackage))
@@ -417,6 +417,7 @@ N/A
 
 Present - 2019
 
+- Hordijk, I. *et al.* (2025). Effect of climate on traits of dominant and rare tree species in the world’s forests. *Nature Communications*, [16, 4773](https://doi.org/10.1038/s41467-025-59754-7).
 - Mo, L. *et al.* (2024). The global distribution and drivers of wood density and their impact on forest carbon stocks. *Nature Ecology & Evolution*, [8, 2195-2212](https://doi.org/10.1038/s41559-024-02564-9).
 - Hordijk, I. *et al.* (2024). Dominance and rarity in tree communities across the globe: Patterns, predictors and threats. *Global Ecology and Biogeography* [33, e13889](https://doi.org/10.1111/geb.13889).
 - Zou, Y. *et al.* (2024). Positive Feedbacks and Alternative Stable States in Forest Leaf Types. *Nature Communications* [15, 4658](https://doi.org/10.1038/s41467-024-48676-5).
