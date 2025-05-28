@@ -514,6 +514,7 @@ Present - 2003
 - Indian Journal of Science & Technology
 - Journal of Classification
 - Journal of Economic Geography
+- Journal of Environmental Management
 - Journal of Geographical Systems
 - Journal of the Royal Statistical Society
 - Journal of Theoretical Biology
