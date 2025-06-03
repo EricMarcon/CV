@@ -333,12 +333,12 @@ Présent - 2012
 
 - Marcon, E., Mirabel, A., Molino, J.-F., Sabatier, D. (2024). Estimation of the number of tree species in French Guiana by extrapolation of permanent plots richness. *Journal of Tropical Ecology*, [40, e11](https://doi.org/10.1017/S0266467424000099).
 - Grabchak, M., Marcon, E., Lang, G., & Zhang, Z. (2017). The generalized Simpson’s entropy is a measure of biodiversity. *Plos One*, [12, e0173305](https://doi.org/10.1371/journal.pone.0173305).
-- Buckland, S. T., Yuan, Y., & Marcon, E. (2017). Measuring temporal trends in biodiversity. *AStA Advances in Statistical Analysis*, [101, 461–474](https://doi.org/10.1007/s10182-017-0308-1).
-- Pavoine, S., Marcon, E., & Ricotta, C. (2016). ‘Equivalent numbers’ for species, phylogenetic or functional diversity in a nested hierarchy of multiple scales. *Methods in Ecology and Evolution*, [7(10), 1152–1163](https://doi.org/10.1111/2041-210X.12591).
-- Marcon, E., & Hérault, B. (2015). Decomposing phylodiversity. *Methods in Ecology and Evolution*, [6, 333–339](https://doi.org/10.1111/2041-210X.12323).
-- Marcon, E., & Hérault, B. (2015). *entropart*, an R package to measure and partition diversity. *Journal of Statistical Software*, [67, 1–26](https://doi.org/10.18637/jss.v067.i08).
+- Buckland, S. T., Yuan, Y., & Marcon, E. (2017). Measuring temporal trends in biodiversity. *AStA Advances in Statistical Analysis*, [101, 461-474](https://doi.org/10.1007/s10182-017-0308-1).
+- Pavoine, S., Marcon, E., & Ricotta, C. (2016). ‘Equivalent numbers’ for species, phylogenetic or functional diversity in a nested hierarchy of multiple scales. *Methods in Ecology and Evolution*, [7(10), 1152-1163](https://doi.org/10.1111/2041-210X.12591).
+- Marcon, E., & Hérault, B. (2015). Decomposing phylodiversity. *Methods in Ecology and Evolution*, [6, 333-339](https://doi.org/10.1111/2041-210X.12323).
+- Marcon, E., & Hérault, B. (2015). *entropart*, an R package to measure and partition diversity. *Journal of Statistical Software*, [67, 1-26](https://doi.org/10.18637/jss.v067.i08).
 - Marcon, E., Scotti, I., Hérault, B., Rossi, V., & Lang, G. (2014). Generalization of the partitioning of Shannon diversity. *Plos One*, [9, e90289](https://doi.org/10.1371/journal.pone.0090289).
-- Marcon, E., Hérault, B., Baraloto, C., & Lang, G. (2012). The decomposition of Shannon’s entropy and a confidence interval for beta diversity. *Oikos*, [121, 516–522](https://doi.org/10.1111/j.1600-0706.2011.19267.x).
+- Marcon, E., Hérault, B., Baraloto, C., & Lang, G. (2012). The decomposition of Shannon’s entropy and a confidence interval for beta diversity. *Oikos*, [121, 516-522](https://doi.org/10.1111/j.1600-0706.2011.19267.x).
 
 ::: aside
 ```{r citations, echo=FALSE, message=FALSE, warning=FALSE}
@@ -377,15 +377,15 @@ N/A
 Présent - 2003 
 
 - Marcon, E., & Puech, F. (2023). Mapping distributions in non-homogeneous space with distance-based methods. *Journal of Spatial Econometrics*, [4, 13](https://doi.org/10.1007/s43071-023-00042-1).
-- Lang, G., Marcon, E., & Puech, F. (2020). Distance-based measures of spatial concentration: Introducing a relative density function. *The Annals of Regional Science*, [64, 243–265](https://doi.org/10.1007/s00168-019-00946-7).
-- Marcon, E. (2019). Mesure de la biodiversité et de la structuration spatiale de l’activité économique par l’entropie. *Revue Économique*, [70(3), 305–326](https://doi.org/10.3917/reco.703.0305). [English translation](https://ericmarcon.github.io/Revue-Economique-2019/).
-- Marcon, E., & Puech, F. (2017). A typology of distance-based measures of spatial concentration. *Regional Science and Urban Economics*, [62, 56–67](https://doi.org/10.1016/j.regsciurbeco.2016.10.004).
-- Marcon, E., Traissac, S., Puech, F., & Lang, G. (2015). Tools to characterize point patterns: *dbmss* for R. *Journal of Statistical Software*, [67, 1–15](https://doi.org/10.18637/jss.v067.c03).
+- Lang, G., Marcon, E., & Puech, F. (2020). Distance-based measures of spatial concentration: Introducing a relative density function. *The Annals of Regional Science*, [64, 243-265](https://doi.org/10.1007/s00168-019-00946-7).
+- Marcon, E. (2019). Mesure de la biodiversité et de la structuration spatiale de l’activité économique par l’entropie. *Revue Économique*, [70(3), 305-326](https://doi.org/10.3917/reco.703.0305). [English translation](https://ericmarcon.github.io/Revue-Economique-2019/).
+- Marcon, E., & Puech, F. (2017). A typology of distance-based measures of spatial concentration. *Regional Science and Urban Economics*, [62, 56-67](https://doi.org/10.1016/j.regsciurbeco.2016.10.004).
+- Marcon, E., Traissac, S., Puech, F., & Lang, G. (2015). Tools to characterize point patterns: *dbmss* for R. *Journal of Statistical Software*, [67, 1-15](https://doi.org/10.18637/jss.v067.c03).
 - Marcon, E., Traissac, S., & Lang, G. (2013). A statistical test for Ripley’s function rejection of poisson null hypothesis. *ISRN Ecology*, [Article ID 753475](https://doi.org/10.1155/2013/753475).
-- Lang, G., & Marcon, E. (2013). Testing randomness of spatial point patterns with the Ripley statistic. *ESAIM: Probability and Statistics*, [17, 767–788](https://doi.org/10.1051/ps/2012027).
+- Lang, G., & Marcon, E. (2013). Testing randomness of spatial point patterns with the Ripley statistic. *ESAIM: Probability and Statistics*, [17, 767-788](https://doi.org/10.1051/ps/2012027).
 - Marcon, E., Puech, F., & Traissac, S. (2012). Characterizing the relative spatial structure of point patterns. *International Journal of Ecology*, [Article ID 619281](https://doi.org/10.1155/2012/619281).
-- Marcon, E., & Puech, F. (2010). Measures of the geographic concentration of industries: Improving distance-based methods. *Journal of Economic Geography*, [10, 745–762](https://doi.org/10.1093/jeg/lbp056).
-- Marcon, E., & Puech, F. (2003). Evaluating the geographic concentration of industries using distance-based methods. *Journal of Economic Geography*, [3, 409–428](https://doi.org/10.1093/jeg/lbg016).
+- Marcon, E., & Puech, F. (2010). Measures of the geographic concentration of industries: Improving distance-based methods. *Journal of Economic Geography*, [10, 745-762](https://doi.org/10.1093/jeg/lbp056).
+- Marcon, E., & Puech, F. (2003). Evaluating the geographic concentration of industries using distance-based methods. *Journal of Economic Geography*, [3, 409-428](https://doi.org/10.1093/jeg/lbg016).
 
 
 ### Economie géographique
@@ -396,10 +396,10 @@ N/A
 
 2018 - 2005 
 
-- Floch, J.-M., Marcon, E., & Puech, F. (2018). Les configurations de points. In V. Loonis & M.-P. (de) Bellefon (Eds.), *Manuel d’analyse spatiale* (pp. [73–114](https://www.insee.fr/fr/information/3635442)). Insee-Eurostat.
-- Marcon, E., & Puech, F. (2015). Mesures de la concentration spatiale en espace continu: Théorie et applications. *Économie et Statistique*, [474](https://www.leseditionsdunet.com/livre/economie-et-statistique-ndeg474), 105–131.
-- Marcon, E., & Puech, F. (2012). La mesure en économie internationale. In L. Abdelmalki, J.-P. Allegret, F. Puech, M. S. Jallab, & A. Silem (Eds.), *Développements récents en économie et finances internationales* (pp. [15–27](https://www.cairn.info/developpements-recents-en-economie-et-finances--9782200280536.htm)). Armand Colin.
-- Marcon, E., Mucchielli, J.-L., & Puech, F. (2005). Concentration géographique de l’emploi industriel et dynamiques territoriales en France de 1993 à 2001. In E. M. Mouhoud (Ed.), *Localisation des activités et stratégies de l’Etat — Rapport du commissariat général du plan groupe Perroux* (pp. [99–109](https://www.vie-publique.fr/rapport/27802-la-localisation-des-activites-et-les-strategies-de-letat-contribution)). L’Action Municipale. 
+- Floch, J.-M., Marcon, E., & Puech, F. (2018). Les configurations de points. In V. Loonis & M.-P. (de) Bellefon (Eds.), *Manuel d’analyse spatiale* (pp. [73-114](https://www.insee.fr/fr/information/3635442)). Insee-Eurostat.
+- Marcon, E., & Puech, F. (2015). Mesures de la concentration spatiale en espace continu: Théorie et applications. *Économie et Statistique*, [474](https://www.leseditionsdunet.com/livre/economie-et-statistique-ndeg474), 105-131.
+- Marcon, E., & Puech, F. (2012). La mesure en économie internationale. In L. Abdelmalki, J.-P. Allegret, F. Puech, M. S. Jallab, & A. Silem (Eds.), *Développements récents en économie et finances internationales* (pp. [15-27](https://www.cairn.info/developpements-recents-en-economie-et-finances--9782200280536.htm)). Armand Colin.
+- Marcon, E., Mucchielli, J.-L., & Puech, F. (2005). Concentration géographique de l’emploi industriel et dynamiques territoriales en France de 1993 à 2001. In E. M. Mouhoud (Ed.), *Localisation des activités et stratégies de l’Etat — Rapport du commissariat général du plan groupe Perroux* (pp. [99-109](https://www.vie-publique.fr/rapport/27802-la-localisation-des-activites-et-les-strategies-de-letat-contribution)). L’Action Municipale. 
 
 
 ### Écologie des forêts tropicales
@@ -410,12 +410,12 @@ Kourou, Guyane française
 
 2020 - 2007
 
-- Schmitt, S. *et al.* (2020). Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest. *Oikos*, [129, 1521–1530](https://doi.org/10.1111/oik.07488).
-- Richard-Hansen  *et al.* (2015). Landscape patterns influence communities of medium- to large-bodied vertebrate in undisturbed terra firme forests of French Guiana. *Journal of Tropical Ecology*, [31, 423–436](https://doi.org/10.1017/S0266467415000255).
+- Schmitt, S. *et al.* (2020). Topography consistently drives intra- and inter-specific leaf trait variation within tree species complexes in a Neotropical forest. *Oikos*, [129, 1521-1530](https://doi.org/10.1111/oik.07488).
+- Richard-Hansen  *et al.* (2015). Landscape patterns influence communities of medium- to large-bodied vertebrate in undisturbed terra firme forests of French Guiana. *Journal of Tropical Ecology*, [31, 423-436](https://doi.org/10.1017/S0266467415000255).
 - Coste, S. *et al.* (2010). Assessing foliar chlorophyll contents with the SPAD-502 chlorophyll meter: A calibration test with thirteen tree species of tropical rainforest in French Guiana. *Annals of Forest Science*, [67, 607](https://doi.org/10.1051/forest/2010020).
 - Baraloto, C., Marcon, E., Morneau, F., Pavoine, S., & Roggy, J.-C. (2010). Integrating functional diversity into tropical forest plantation designs to study ecosystem processes. *Annals of Forest Science*, [67, 303](https://doi.org/10.1051/forest/2009110).
-- Blanc, L. *et al.*  (2009). Dynamics of aboveground carbon stocks in a selectively logged tropical forest. *Ecological Applications*, [19, 1397–1404](https://doi.org/10.1890/08-1572.1).
-- Bonal, D. *et al.* (2007). The successional status of tropical rainforest tree species is associated with differences in leaf carbon isotope discrimination and functional traits. *Annals of Forest Science*, [64, 169–176](https://doi.org/10.1051/forest:2006101).
+- Blanc, L. *et al.*  (2009). Dynamics of aboveground carbon stocks in a selectively logged tropical forest. *Ecological Applications*, [19, 1397-1404](https://doi.org/10.1890/08-1572.1).
+- Bonal, D. *et al.* (2007). The successional status of tropical rainforest tree species is associated with differences in leaf carbon isotope discrimination and functional traits. *Annals of Forest Science*, [64, 169-176](https://doi.org/10.1051/forest:2006101).
 
 
 ### Ecologie
@@ -431,13 +431,13 @@ Présent - 2019
 - Hordijk, I. *et al.* (2024). Dominance and rarity in tree communities across the globe: Patterns, predictors and threats. *Global Ecology and Biogeography* [33, e13889](https://doi.org/10.1111/geb.13889).
 - Zou, Y. *et al.*  (2024). Positive Feedbacks and Alternative Stable States in Forest Leaf Types. *Nature Communications* [15, 4658](https://doi.org/10.1038/s41467-024-48676-5).
 - Bouchard, E. *et al.*  (2024). Global patterns and environmental drivers of forest functional composition. *Global Ecology and Biogeography*, [33, 303-324](https://doi.org/10.1111/geb.13790).
-- Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. *Nature*, [624, 92–101](https://doi.org/10.1038/s41586-023-06723-z).
-- Ma, H.  *et al.* (2023). The global biogeography of tree leaf form and habit. *Nature Plants*, [9, 1795–1809](https://doi.org/10.1038/s41477-023-01543-5).
-- Hordijk, I. *et al.* (2023). Evenness mediates the global relationship between forest productivity and richness. *Journal of Ecology*, [111, 1308–1326](https://doi.org/10.1111/1365-2745.14098).
-- Delavaux, C. S. *et al.* (2023). Native diversity buffers against severity of non-native tree invasions. *Nature*, [621, 773–781](https://doi.org/10.1038/s41586-023-06440-7).
-- Liang, J. *et al.* (2022). Co-limitation towards lower latitudes shapes global forest diversity gradients. *Nature Ecology & Evolution*, [6, 1423–1437](https://doi.org/10.1038/s41559-022-01831-x).
-- Kattge, J. *et al.* (2020). TRY plant trait database – enhanced coverage and open access. *Global Change Biology*, [26, 119–188](https://doi.org/10.1111/gcb.14904).
-- Steidinger, B. S. *et al.* (2019). Climatic controls of decomposition drive the global biogeography of forest tree symbioses. *Nature*, [569, 404–408](https://doi.org/10.1038/s41586-019-1128-0).
+- Mo, L. *et al.* (2023). Integrated global assessment of the natural forest carbon potential. *Nature*, [624, 92-101](https://doi.org/10.1038/s41586-023-06723-z).
+- Ma, H.  *et al.* (2023). The global biogeography of tree leaf form and habit. *Nature Plants*, [9, 1795-1809](https://doi.org/10.1038/s41477-023-01543-5).
+- Hordijk, I. *et al.* (2023). Evenness mediates the global relationship between forest productivity and richness. *Journal of Ecology*, [111, 1308-1326](https://doi.org/10.1111/1365-2745.14098).
+- Delavaux, C. S. *et al.* (2023). Native diversity buffers against severity of non-native tree invasions. *Nature*, [621, 773-781](https://doi.org/10.1038/s41586-023-06440-7).
+- Liang, J. *et al.* (2022). Co-limitation towards lower latitudes shapes global forest diversity gradients. *Nature Ecology & Evolution*, [6, 1423-1437](https://doi.org/10.1038/s41559-022-01831-x).
+- Kattge, J. *et al.* (2020). TRY plant trait database – enhanced coverage and open access. *Global Change Biology*, [26, 119-188](https://doi.org/10.1111/gcb.14904).
+- Steidinger, B. S. *et al.* (2019). Climatic controls of decomposition drive the global biogeography of forest tree symbioses. *Nature*, [569, 404-408](https://doi.org/10.1038/s41586-019-1128-0).
 
 
 ### Encadrement d'étudiants
@@ -452,10 +452,10 @@ Présent - 2007
 - Kaçamak, B., Réjou-Méchain, M., Rowe, N., Rossi, V., Barbier, N., Bazan, S., Forni, E., Guibal, D., Harris, D.J., Loubota Panzou, G.J., Loumeto, J., Marcon, E., Pinho, B.X., Zombo, I., Gourlet‐Fleury, S. (2025). Local Forest Structure and Host Specificity Influence Liana Community Composition in a Moist Central African Forest. *Ecology and Evolution*, [15, e71075](https://doi.org/10.1002/ece3.71075)
 - Goulpeau, A., Hedde, M., Ganault, P., Lapied, E., Maggia, M.-E., Marcon, E., Decaëns, T. (2025) Dissecting Earthworm Diversity in Tropical Rainforests. *Ecography*, [e07697](https://doi.org/10.1111/ecog.07697)
 - Nemetschek, D., Derroire, G., Marcon, E., Aubry-Kientz, M., Auer, J., Badouard, V., Baraloto, C., Bauman, D., Le Blaye, Q., Boisseaux, M., Bonal, D., Coste, S., Dardevet, E., Heuret, P., Hietz, P., Levionnois, S., Maréchaux, I., McMahon, S. M., Stahl, C., Vleminckx, J., Wanek, W., Ziegler, C., & Fortunel, C. (2024). Climate anomalies and neighbourhood crowding interact in shaping tree growth in old‐growth and selectively logged tropical forests. *Journal of Ecology*,[112, 590-612](https://doi.org/10.1111/1365-2745.14256)
-- Penel, B., Freycon, V., Marcon, E., Rossi, V., Cornu, G., Bénédet, F., Forni, E., & Gourlet-Fleury, S. (2022). Macrotermes termite mounds influence the spatial pattern of tree species in two African rainforest sites, in northern Congo. But were they really forests in the past? *Journal of Tropical Ecology*, [38, 267–274](https://doi.org/10.1017/S0266467422000165).
-- Mirabel, A., Marcon, E., & Hérault, B. (2021). 30 Years of postdisturbance recruitment in a Neotropical forest. *Ecology and Evolution*, [11, 14448–14458](https://doi.org/10.1002/ece3.7634).
+- Penel, B., Freycon, V., Marcon, E., Rossi, V., Cornu, G., Bénédet, F., Forni, E., & Gourlet-Fleury, S. (2022). Macrotermes termite mounds influence the spatial pattern of tree species in two African rainforest sites, in northern Congo. But were they really forests in the past? *Journal of Tropical Ecology*, [38, 267-274](https://doi.org/10.1017/S0266467422000165).
+- Mirabel, A., Marcon, E., & Hérault, B. (2021). 30 Years of postdisturbance recruitment in a Neotropical forest. *Ecology and Evolution*, [11, 14448-14458](https://doi.org/10.1002/ece3.7634).
 - Mirabel, A., Hérault, B., & Marcon, E. (2020). Diverging taxonomic and functional trajectories following disturbance in a Neotropical forest. *Science of The Total Environment*, [720, 137397](https://doi.org/10.1016/J.SCITOTENV.2020.137397).
-- Ollivier, M., Baraloto, C., & Marcon, E. (2007). A trait database for Guianan rain forest trees permits intra- and inter-specific contrasts. *Annals of Forest Science*, [64, 781–786](https://doi.org/10.1051/forest:2007058).
+- Ollivier, M., Baraloto, C., & Marcon, E. (2007). A trait database for Guianan rain forest trees permits intra- and inter-specific contrasts. *Annals of Forest Science*, [64, 781-786](https://doi.org/10.1051/forest:2007058).
 
 
 ### Ouvrages
