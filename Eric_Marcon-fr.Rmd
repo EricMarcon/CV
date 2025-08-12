@@ -543,6 +543,7 @@ Present - 2003
 - The R Journal
 - Theoretical Ecology
 - Theory in Biosciences
+- Transactions in GIS
 - Urban Geography
 - Urban Studies
 - Web Ecology
