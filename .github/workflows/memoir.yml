@@ -1,7 +1,7 @@
 on:
   push:
    branches:
-     - master # scholar::get_citation_history() blocked by Google Scholar
+     - none # scholar::get_citation_history() blocked by Google Scholar
 
 name: pagedown
 
