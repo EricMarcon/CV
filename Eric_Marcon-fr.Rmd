@@ -95,7 +95,7 @@ Langues {#language}
 Disclaimer {#disclaimer}
 --------------------------------------------------------------------------------
 
-Mise à jour le `r format(Sys.Date(), format="%d %B %Y")`.
+Mise à jour le `r  iconv(format(Sys.Date(), format="%d %B %Y"), "latin1", "UTF-8")`.
 
 
 Main
