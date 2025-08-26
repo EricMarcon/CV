@@ -480,6 +480,7 @@ Present - 2003
 
 ::: concise
 - Acta Biotheoretica
+- Acta Oecologica
 - Agricultural and Forest Meteorology
 - Annals of Forest Science
 - AStA Advances in Statistical Analysis
