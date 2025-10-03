@@ -542,6 +542,7 @@ Present - 2003
 - Spatial Economic Analysis
 - Stochastic Environmental Research and Risk Assessment
 - Sustainability
+- The Innovation
 - The R Journal
 - Theoretical Ecology
 - Theory in Biosciences
