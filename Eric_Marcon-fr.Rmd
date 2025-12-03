@@ -539,6 +539,7 @@ Present - 2003
 - Regional Science and Urban Economics
 - Regional Studies
 - Science of the Total Environment
+- Scientific Reports
 - Spatial Economic Analysis
 - Stochastic Environmental Research and Risk Assessment
 - Sustainability
