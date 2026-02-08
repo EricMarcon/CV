@@ -571,6 +571,17 @@ N/A
 <i class="fa-brands fa-github"></i> [Package entropart](https://ericmarcon.github.io/entropart/)
 :::
 
+### divent
+
+divent est une réécriture d'entropart pour le rendre plus efficace et simple à utiliser. Il inclut de nouvelles fonctionnalités, notamment la diversité spatialement explicite
+
+N/A
+
+2026
+
+::: aside
+<i class="fa-brands fa-github"></i> [Package divent](https://ericmarcon.github.io/divent/)
+:::
 
 ### dbmss
 
