@@ -426,6 +426,7 @@ N/A
 
 Présent - 2019
 
+- Marcon, E., Aubry-Kientz, M., & Gaudin, A. (2025). Mesurer et modéliser les communautés végétales tropicales. Ressorts et tensions d'une ingénierie des traits fonctionnels. *Statistique et société*, [13, 3](https://doi.org/10.4000/15rj1).
 - Hordijk, I. *et al.* (2025). Effect of climate on traits of dominant and rare tree species in the world’s forests. *Nature Communications*, [16, 4773](https://doi.org/10.1038/s41467-025-59754-7).
 - Mo, L. *et al.* (2024). The global distribution and drivers of wood density and their impact on forest carbon stocks. *Nature Ecology & Evolution*, [8, 2195-2212](https://doi.org/10.1038/s41559-024-02564-9).
 - Hordijk, I. *et al.* (2024). Dominance and rarity in tree communities across the globe: Patterns, predictors and threats. *Global Ecology and Biogeography* [33, e13889](https://doi.org/10.1111/geb.13889).
@@ -573,7 +574,7 @@ N/A
 
 ### divent
 
-divent est une réécriture d'entropart pour le rendre plus efficace et simple à utiliser. Il inclut de nouvelles fonctionnalités, notamment la diversité spatialement explicite
+divent est une réécriture d'entropart pour le rendre plus efficace et simple à utiliser. Il inclut de nouvelles fonctionnalités, notamment la diversité spatialement explicite.
 
 N/A
 
