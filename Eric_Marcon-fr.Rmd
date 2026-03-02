@@ -505,6 +505,7 @@ Present - 2003
 - Ecological Indicators
 - Ecological Informatics
 - Ecology and Evolution
+- Ecology Letters
 - Économie et Prévision
 - Économie et Statistique
 - Empirical Economics
