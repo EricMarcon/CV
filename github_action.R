@@ -10,4 +10,3 @@ lapply(
 )
 # Move files to docs/
 memoiR::build_githubpages()
-
