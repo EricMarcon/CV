@@ -523,6 +523,7 @@ Present - 2003
 - Oecologia
 - One Earth
 - Papers in Regional Science
+- Peeer Community in Ecology
 - PeerJ
 - Planning Practice and Research
 - Plants
