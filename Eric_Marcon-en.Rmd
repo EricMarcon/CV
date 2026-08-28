@@ -508,6 +508,7 @@ Present - 2003
 - Geographical Analysis
 - Hacettepe Journal of Mathematics and Statistics
 - Indian Journal of Science & Technology
+- Journal of Agricultural, Biological, and Environmental Statistics
 - Journal of Classification
 - Journal of Economic Geography
 - Journal of Environmental Management
