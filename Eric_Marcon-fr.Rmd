@@ -521,6 +521,7 @@ Present - 2003
 - Indian Journal of Science & Technology
 - Journal of Agricultural, Biological, and Environmental Statistics
 - Journal of Classification
+- Journal of Ecology
 - Journal of Economic Geography
 - Journal of Environmental Management
 - Journal of Geographical Systems
